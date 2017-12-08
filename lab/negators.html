@@ -1,0 +1,15 @@
+<script language="JavaScript">
+    const not = (fun) => (...args) => !fun(...args);
+
+    const negate = function (fun) {
+        return function (...args) {
+            return !fun(...args);
+        };
+    };
+
+    const old = (age) => age > 40
+    console.log(old(35))
+    console.log(old(55))
+    console.log(not(old)(55))
+    console.log(negate(old)(55))
+</script>

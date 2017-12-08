@@ -1,0 +1,11 @@
+1. Ny hantering av variabler
+2. Arrow functions
+3. Funktionsparametrar med defaultvärden
+4. Rest/Spread operator
+5. Object literals
+6. For of loopar
+7. Template literals
+8. Destructuring
+9. Klasser
+
+

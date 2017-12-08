@@ -1,0 +1,5 @@
+Introduktion
+Stödet för ES 6 nu nästan 100% i chrome och firefox. Det som ej stöds är moduler.
+Många av de enklare konstruktionerna i ES 6 har haft fullt stöd i webläsarna en längre tid.
+
+https://kangax.github.io/compat-table/es6/ (googla es6 compat table)

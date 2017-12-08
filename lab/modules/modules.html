@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Moduler har lyfts ut till ett eget projekt och hanteras nu seperat. Kräver
+    transpilers för att köras av webläsarna.
+    * Körs alltid i stric mode.
+    -->
+
+    <script language="JavaScript" src="es6-module-loader-master/lib/traceur.js"></script>
+    <script language="JavaScript" src="es6-module-loader-master/lib/es6-module-loader.js"></script>
+    <script>
+        System.import('./base')
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Lab ES 6</title>
+</head>
+<body>
+
+</body>
+</html>
